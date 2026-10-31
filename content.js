@@ -17,7 +17,10 @@ window.SITE = {
     },
     "style": "swiss-minimal",
     "layout": "editorial",
-    "updated": "2026-10-30"
+    "updated": "2026-10-31",
+    "cv": {
+      "fit": 4
+    }
   },
   "basics": {
     "name": "Xin Jin",
@@ -48,17 +51,10 @@ window.SITE = {
     "cvDownloads": [
       {
         "label": {
-          "de": "Lebenslauf für Vollzeitrollen",
-          "en": "German résumé · full-time roles"
+          "de": "Lebenslauf (1 Seite)",
+          "en": "German résumé (one page)"
         },
-        "file": "assets/docs/cv-full-time-de.pdf"
-      },
-      {
-        "label": {
-          "de": "Lebenslauf für Werkstudentinnenrollen",
-          "en": "German résumé · working-student roles"
-        },
-        "file": "assets/docs/cv-working-student-de.pdf"
+        "file": "assets/docs/cv-de.pdf"
       }
     ]
   },
@@ -96,8 +92,9 @@ window.SITE = {
         "technical-sales",
         "business-development",
         "partner-management",
-        "stakeholder-management",
-        "proposal-development"
+        "proposal-development",
+        "excel",
+        "salesforce"
       ],
       "stories": [
         "promik-opportunities"
@@ -143,12 +140,6 @@ window.SITE = {
           "en": "Completed training in AI management, data science, cloud computing and prompt engineering."
         }
       ],
-      "skills": [
-        "ai-project-management",
-        "data-analysis",
-        "cloud-computing",
-        "prompt-engineering"
-      ],
       "sources": [
         "M02",
         "M08"
@@ -175,6 +166,10 @@ window.SITE = {
       },
       "highlights": [
         {
+          "de": "Internationale Cell-to-Pack-Ausschreibungen für Standorte in Mexiko, Ungarn und Deutschland mit rund 200 Mio. EUR verantwortetem Angebotsvolumen gesteuert; etwa die Hälfte der Teilprojekte erreichte technische Freigabe und finale Verhandlungen.",
+          "en": "Led international Cell-to-Pack tenders for sites in Mexico, Hungary and Germany with around EUR 200m in bid value; about half of the sub-projects reached technical approval and final negotiations."
+        },
+        {
           "de": "Strategische Betreuung von 5+ OEM-Kunden aus Batterie- und Automotive-Industrie.",
           "en": "Managed relationships with 5+ OEM customers in battery manufacturing and automotive."
         },
@@ -195,13 +190,12 @@ window.SITE = {
         "technical-sales",
         "partner-management",
         "stakeholder-management",
-        "project-coordination",
-        "requirements-analysis",
-        "commercial-negotiation",
+        "proposal-development",
         "battery-manufacturing",
-        "proposal-development"
+        "excel"
       ],
       "stories": [
+        "cell-to-pack-tenders",
         "lead-prototype"
       ],
       "sources": [
@@ -210,7 +204,8 @@ window.SITE = {
         "M05",
         "I05",
         "I07",
-        "I08"
+        "I08",
+        "I09"
       ]
     },
     {
@@ -244,10 +239,9 @@ window.SITE = {
       ],
       "skills": [
         "technical-sales",
-        "requirements-analysis",
         "proposal-development",
-        "scrum",
-        "battery-manufacturing"
+        "battery-manufacturing",
+        "excel"
       ],
       "sources": [
         "M01",
@@ -289,13 +283,13 @@ window.SITE = {
         }
       ],
       "skills": [
-        "supply-chain-analytics",
-        "sap",
         "stakeholder-management",
-        "project-coordination",
+        "supply-chain-analytics",
         "process-optimization",
-        "supply-chain-planning",
-        "automotive-production"
+        "automotive-production",
+        "sap",
+        "excel",
+        "power-bi"
       ],
       "stories": [
         "akka-sap",
@@ -339,9 +333,8 @@ window.SITE = {
         }
       ],
       "skills": [
-        "lean-production",
-        "data-analysis",
-        "automotive-production"
+        "automotive-production",
+        "excel"
       ],
       "sources": [
         "M01",
@@ -514,6 +507,80 @@ window.SITE = {
   ],
   "stories": [
     {
+      "id": "cell-to-pack-tenders",
+      "parent": "lead",
+      "kind": "work",
+      "featured": true,
+      "title": {
+        "de": "Internationale Cell-to-Pack-Ausschreibungen bis zur finalen Verhandlung geführt",
+        "en": "Advanced international Cell-to-Pack tenders to final negotiations"
+      },
+      "standfirst": {
+        "de": "Technische Lösung und Kalkulation für Projekte in drei Ländern koordiniert.",
+        "en": "Coordinated technical solutions and pricing for projects across three countries."
+      },
+      "role": {
+        "de": "Technische und kommerzielle Angebotskoordination",
+        "en": "Technical and commercial tender coordination"
+      },
+      "problem": {
+        "de": "Internationale Cell-to-Pack-Ausschreibungen für Standorte in Mexiko, Ungarn und Deutschland liefen unter engem Zeitdruck. Je nach Prozessabschnitt betrugen die Fristen drei bis sechs Monate.",
+        "en": "International Cell-to-Pack tenders for sites in Mexico, Hungary and Germany ran on tight schedules. Lead times ranged from three to six months depending on the process stage."
+      },
+      "actions": [
+        {
+          "de": "Das interne Entwicklungsteam koordiniert und technische Lösungen mit den Kunden abgestimmt.",
+          "en": "Coordinated the internal development team and aligned technical solutions with customers."
+        },
+        {
+          "de": "Die Projektkalkulation eingebunden, um Preise aus der technischen Lösung abzuleiten.",
+          "en": "Worked with project accounting to price the proposed technical solutions."
+        },
+        {
+          "de": "Mehrere Teilprojekte parallel durch die Angebots- und technische Bewertungsphase gesteuert.",
+          "en": "Managed multiple sub-projects in parallel through tendering and technical evaluation."
+        }
+      ],
+      "outcome": {
+        "de": "Für rund die Hälfte der Teilprojekte wurde die technische Freigabe erreicht und der Eintritt in die finale Verhandlungsrunde geschafft.",
+        "en": "Around half of the sub-projects received technical approval and advanced to the final negotiation round."
+      },
+      "metrics": [
+        {
+          "value": {
+            "de": "≈ 200 Mio. EUR",
+            "en": "≈ EUR 200m"
+          },
+          "label": {
+            "de": "verantwortetes Angebotsvolumen",
+            "en": "bid value under responsibility"
+          },
+          "sources": [
+            "I09"
+          ]
+        },
+        {
+          "value": "≈ 50%",
+          "label": {
+            "de": "Teilprojekte bis zur finalen Verhandlung",
+            "en": "sub-projects advanced to final negotiations"
+          },
+          "sources": [
+            "I09"
+          ]
+        }
+      ],
+      "skills": [
+        "technical-sales",
+        "stakeholder-management",
+        "proposal-development",
+        "battery-manufacturing"
+      ],
+      "sources": [
+        "I09"
+      ]
+    },
+    {
       "id": "promik-opportunities",
       "parent": "promik",
       "kind": "work",
@@ -639,9 +706,6 @@ window.SITE = {
         "technical-sales",
         "partner-management",
         "stakeholder-management",
-        "project-coordination",
-        "requirements-analysis",
-        "commercial-negotiation",
         "battery-manufacturing"
       ],
       "sources": [
@@ -713,8 +777,7 @@ window.SITE = {
         "supply-chain-analytics",
         "sap",
         "stakeholder-management",
-        "process-optimization",
-        "supply-chain-planning"
+        "process-optimization"
       ],
       "sources": [
         "M01",
@@ -727,7 +790,7 @@ window.SITE = {
       "id": "akka-ramp-up",
       "parent": "akka",
       "kind": "work",
-      "featured": true,
+      "featured": false,
       "title": {
         "de": "Versorgungssicherheit für eine Vorserienproduktion unterstützt",
         "en": "Supporting supply security for pre-series production"
@@ -781,9 +844,7 @@ window.SITE = {
         }
       ],
       "skills": [
-        "supply-chain-planning",
         "stakeholder-management",
-        "project-coordination",
         "automotive-production"
       ],
       "sources": [
@@ -805,34 +866,34 @@ window.SITE = {
       "category": "business",
       "core": true,
       "summary": {
-        "de": "Technische Anforderungen verstehen, Lösungen und Angebote entwickeln und im Kundengespräch vermitteln.",
-        "en": "Understand technical requirements, develop solutions and proposals, and present them to customers."
+        "de": "Technische Kundenbedarfe in passende Lösungen und belastbare Angebote übersetzen.",
+        "en": "Translate technical customer needs into suitable solutions and well-founded proposals."
       }
     },
     {
       "id": "partner-management",
       "name": {
-        "de": "Partner- und Kundenmanagement",
-        "en": "Partner and customer management"
+        "de": "Key Account & Partner Management",
+        "en": "Key account and partner management"
       },
       "category": "business",
       "core": true,
       "summary": {
-        "de": "Internationale Geschäftspartner betreuen und Kunden, Engineering sowie lokale Teams zusammenbringen.",
-        "en": "Manage international partners and connect customers, engineering and local teams."
+        "de": "Kundenbeziehungen und internationale Partner strukturiert weiterentwickeln.",
+        "en": "Develop customer relationships and international partnerships."
       }
     },
     {
       "id": "stakeholder-management",
       "name": {
-        "de": "Stakeholder-Management",
-        "en": "Stakeholder management"
+        "de": "Stakeholder- und Projektkoordination",
+        "en": "Stakeholder and project coordination"
       },
       "category": "business",
       "core": true,
       "summary": {
-        "de": "Unterschiedliche technische und kommerzielle Perspektiven in gemeinsame Entscheidungen überführen.",
-        "en": "Bring different technical and commercial perspectives into shared decisions."
+        "de": "Kunde, Entwicklung, Projektkalkulation und weitere Beteiligte auf gemeinsame technische und kommerzielle Ziele ausrichten.",
+        "en": "Align customers, development, project accounting and other stakeholders around shared technical and commercial goals."
       }
     },
     {
@@ -844,8 +905,8 @@ window.SITE = {
       "category": "data",
       "core": true,
       "summary": {
-        "de": "SAP-Daten nutzen, Prozessschwachstellen sichtbar machen und Verbesserungen mit Teams abstimmen.",
-        "en": "Use SAP data to identify process weaknesses and coordinate improvements with teams."
+        "de": "Prozessschwachstellen mit SAP-Daten erkennen und Verbesserungen ableiten.",
+        "en": "Use SAP data to identify process bottlenecks and improvement opportunities."
       }
     },
     {
@@ -865,122 +926,12 @@ window.SITE = {
       "category": "business"
     },
     {
-      "id": "requirements-analysis",
-      "name": {
-        "de": "Anforderungsanalyse",
-        "en": "Requirements analysis"
-      },
-      "category": "business"
-    },
-    {
-      "id": "commercial-negotiation",
-      "name": {
-        "de": "Kommerzielle Verhandlungen",
-        "en": "Commercial negotiations"
-      },
-      "category": "business"
-    },
-    {
-      "id": "project-coordination",
-      "name": {
-        "de": "Projektkoordination",
-        "en": "Project coordination"
-      },
-      "category": "business"
-    },
-    {
       "id": "process-optimization",
       "name": {
         "de": "Prozessoptimierung",
         "en": "Process improvement"
       },
       "category": "business"
-    },
-    {
-      "id": "supply-chain-planning",
-      "name": {
-        "de": "Supply-Chain-Planung",
-        "en": "Supply chain planning"
-      },
-      "category": "business"
-    },
-    {
-      "id": "scrum",
-      "name": {
-        "de": "Scrum Master",
-        "en": "Scrum Master"
-      },
-      "category": "business"
-    },
-    {
-      "id": "sap",
-      "name": "SAP",
-      "category": "tools"
-    },
-    {
-      "id": "excel",
-      "name": "Microsoft Excel",
-      "category": "tools"
-    },
-    {
-      "id": "tableau",
-      "name": "Tableau",
-      "category": "tools"
-    },
-    {
-      "id": "power-bi",
-      "name": "Power BI",
-      "category": "tools"
-    },
-    {
-      "id": "salesforce",
-      "name": "Salesforce",
-      "category": "tools"
-    },
-    {
-      "id": "python",
-      "name": {
-        "de": "Python (Grundlagen)",
-        "en": "Python (fundamentals)"
-      },
-      "category": "data"
-    },
-    {
-      "id": "sql",
-      "name": "SQL",
-      "category": "data"
-    },
-    {
-      "id": "data-analysis",
-      "name": {
-        "de": "Datenanalyse",
-        "en": "Data analysis"
-      },
-      "category": "data"
-    },
-    {
-      "id": "ai-project-management",
-      "name": {
-        "de": "KI-Projektmanagement",
-        "en": "AI project management"
-      },
-      "category": "ai"
-    },
-    {
-      "id": "cloud-computing",
-      "name": {
-        "de": "Cloud Computing",
-        "en": "Cloud computing"
-      },
-      "category": "tools"
-    },
-    {
-      "id": "prompt-engineering",
-      "name": {
-        "de": "Prompt Engineering",
-        "en": "Prompt engineering"
-      },
-      "category": "ai"
     },
     {
       "id": "battery-manufacturing",
@@ -999,12 +950,24 @@ window.SITE = {
       "category": "engineering"
     },
     {
-      "id": "lean-production",
-      "name": {
-        "de": "Lean Production und 5S",
-        "en": "Lean production and 5S"
-      },
-      "category": "engineering"
+      "id": "sap",
+      "name": "SAP",
+      "category": "tools"
+    },
+    {
+      "id": "excel",
+      "name": "Microsoft Excel",
+      "category": "tools"
+    },
+    {
+      "id": "power-bi",
+      "name": "Power BI",
+      "category": "tools"
+    },
+    {
+      "id": "salesforce",
+      "name": "Salesforce",
+      "category": "tools"
     }
   ],
   "languages": [
