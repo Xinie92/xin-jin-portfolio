@@ -17,7 +17,7 @@ window.SITE = {
     },
     "style": "swiss-minimal",
     "layout": "editorial",
-    "updated": "2026-10-31",
+    "updated": "2026-11-01",
     "cv": {
       "fit": 4
     }
@@ -166,6 +166,10 @@ window.SITE = {
       },
       "highlights": [
         {
+          "de": "Mitwirkung an Ausschreibungen mit einem Gesamtvolumen von über 1 Mrd. EUR; Aufträge im Umfang von 350 Mio. EUR wurden gewonnen.",
+          "en": "Contributed to tenders totalling over EUR 1 billion; contracts worth EUR 350 million were awarded."
+        },
+        {
           "de": "Internationale Cell-to-Pack-Ausschreibungen für Standorte in Mexiko, Ungarn und Deutschland mit rund 200 Mio. EUR verantwortetem Angebotsvolumen gesteuert; etwa die Hälfte der Teilprojekte erreichte technische Freigabe und finale Verhandlungen.",
           "en": "Led international Cell-to-Pack tenders for sites in Mexico, Hungary and Germany with around EUR 200m in bid value; about half of the sub-projects reached technical approval and final negotiations."
         },
@@ -176,10 +180,6 @@ window.SITE = {
         {
           "de": "Kundenzufriedenheit durch strukturierte Lösungsprozesse um 25% gesteigert.",
           "en": "Improved customer satisfaction by 25% through structured solution processes."
-        },
-        {
-          "de": "Mitwirkung an Ausschreibungen mit einem Gesamtvolumen von über 1 Mrd. EUR; Aufträge im Umfang von 350 Mio. EUR wurden gewonnen.",
-          "en": "Contributed to tenders totalling over EUR 1 billion; contracts worth EUR 350 million were awarded."
         },
         {
           "de": "Internationale Kundenprojekte zwischen europäischen Kunden, Engineering, chinesischem Headquarter und lokalen Teams koordiniert.",
@@ -507,6 +507,76 @@ window.SITE = {
   ],
   "stories": [
     {
+      "id": "promik-opportunities",
+      "parent": "promik",
+      "kind": "work",
+      "featured": true,
+      "title": {
+        "de": "100+ Geschäftsmöglichkeiten für technische Lösungen identifiziert",
+        "en": "Identifying 100+ opportunities for technical solutions"
+      },
+      "standfirst": {
+        "de": "Neue Kontakte über Recherche, Branchenforen, Fachmessen und telefonische Ansprache aufgebaut.",
+        "en": "Built new prospect relationships through research, industry forums, trade fairs and cold outreach."
+      },
+      "role": {
+        "de": "Key Account Management und Business Development",
+        "en": "Key account management and business development"
+      },
+      "period": {
+        "start": "2026-03",
+        "end": "2026-08"
+      },
+      "problem": {
+        "de": "ProMik wollte sein Vertriebsnetzwerk in Automotive, Industrieelektronik und EMS erweitern.",
+        "en": "ProMik wanted to expand its network across automotive, industrial electronics and EMS."
+      },
+      "actions": [
+        {
+          "de": "Potenzielle Unternehmen über Webseiten, Branchenforen und Fachmessen recherchiert.",
+          "en": "Researched potential companies through websites, industry forums and trade fairs."
+        },
+        {
+          "de": "Neue Kontakte telefonisch angesprochen und Geschäftsmöglichkeiten qualifiziert.",
+          "en": "Reached out to new contacts by phone and qualified business opportunities."
+        },
+        {
+          "de": "Technische Erstgespräche vereinbart und erste Angebote vorbereitet.",
+          "en": "Arranged initial technical meetings and prepared first proposals."
+        }
+      ],
+      "outcome": {
+        "de": "Über 100 Geschäftsmöglichkeiten identifiziert und erste Kundengespräche sowie Angebotsprozesse angestoßen.",
+        "en": "Identified over 100 opportunities and initiated customer meetings and proposal discussions."
+      },
+      "metrics": [
+        {
+          "value": "100+",
+          "label": {
+            "de": "identifizierte Geschäftsmöglichkeiten",
+            "en": "business opportunities identified"
+          },
+          "sources": [
+            "M02",
+            "I04",
+            "I07"
+          ]
+        }
+      ],
+      "skills": [
+        "technical-sales",
+        "business-development",
+        "partner-management",
+        "proposal-development"
+      ],
+      "sources": [
+        "M02",
+        "M04",
+        "I04",
+        "I07"
+      ]
+    },
+    {
       "id": "cell-to-pack-tenders",
       "parent": "lead",
       "kind": "work",
@@ -581,76 +651,6 @@ window.SITE = {
       ]
     },
     {
-      "id": "promik-opportunities",
-      "parent": "promik",
-      "kind": "work",
-      "featured": true,
-      "title": {
-        "de": "100+ Geschäftsmöglichkeiten für technische Lösungen identifiziert",
-        "en": "Identifying 100+ opportunities for technical solutions"
-      },
-      "standfirst": {
-        "de": "Neue Kontakte über Recherche, Branchenforen, Fachmessen und telefonische Ansprache aufgebaut.",
-        "en": "Built new prospect relationships through research, industry forums, trade fairs and cold outreach."
-      },
-      "role": {
-        "de": "Key Account Management und Business Development",
-        "en": "Key account management and business development"
-      },
-      "period": {
-        "start": "2026-03",
-        "end": "2026-08"
-      },
-      "problem": {
-        "de": "ProMik wollte sein Vertriebsnetzwerk in Automotive, Industrieelektronik und EMS erweitern.",
-        "en": "ProMik wanted to expand its network across automotive, industrial electronics and EMS."
-      },
-      "actions": [
-        {
-          "de": "Potenzielle Unternehmen über Webseiten, Branchenforen und Fachmessen recherchiert.",
-          "en": "Researched potential companies through websites, industry forums and trade fairs."
-        },
-        {
-          "de": "Neue Kontakte telefonisch angesprochen und Geschäftsmöglichkeiten qualifiziert.",
-          "en": "Reached out to new contacts by phone and qualified business opportunities."
-        },
-        {
-          "de": "Technische Erstgespräche vereinbart und erste Angebote vorbereitet.",
-          "en": "Arranged initial technical meetings and prepared first proposals."
-        }
-      ],
-      "outcome": {
-        "de": "Über 100 Geschäftsmöglichkeiten identifiziert und erste Kundengespräche sowie Angebotsprozesse angestoßen.",
-        "en": "Identified over 100 opportunities and initiated customer meetings and proposal discussions."
-      },
-      "metrics": [
-        {
-          "value": "100+",
-          "label": {
-            "de": "identifizierte Geschäftsmöglichkeiten",
-            "en": "business opportunities identified"
-          },
-          "sources": [
-            "M02",
-            "I04",
-            "I07"
-          ]
-        }
-      ],
-      "skills": [
-        "technical-sales",
-        "business-development",
-        "partner-management",
-        "proposal-development"
-      ],
-      "sources": [
-        "M02",
-        "M04",
-        "I04",
-        "I07"
-      ]
-    },
-    {
       "id": "lead-prototype",
       "parent": "lead",
       "kind": "work",
@@ -719,7 +719,7 @@ window.SITE = {
       "id": "akka-sap",
       "parent": "akka",
       "kind": "work",
-      "featured": true,
+      "featured": false,
       "title": {
         "de": "SAP-Analyse half, CKD-Prozesse auf 13 Tage zu verkürzen",
         "en": "Using SAP analysis to reduce CKD processing to 13 days"
